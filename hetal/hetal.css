@@ -1,0 +1,28 @@
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.row {
+    width: 100%;
+}
+
+.box {
+    width: 33.333%;
+    float: left;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.subbox {
+    width: 100%;
+    background-color: blueviolet;
+    height: 300px;
+}
+
+@media screen and (max-width:426px) {
+    .box {
+        width: 100%;
+    }
+}
